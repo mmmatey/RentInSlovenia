@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/_distance"
+            android:textColor="@color/ttexxt"
+            android:textSize="8pt"
+            android:width="200px" />
+
+        <ImageView
+            android:id="@+id/mapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/map" />
+
+        <ImageView
+            android:id="@+id/klic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/phone" />
+
+    </LinearLayout>
+
+</LinearLayout>

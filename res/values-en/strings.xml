@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Bonjour monde, RentInSlovenia</string>
+    <string name="app_name">Location en Slovénie</string>
+    <string name="whatisrenting">Please choose what you want to rent:</string>
+
+</resources>
